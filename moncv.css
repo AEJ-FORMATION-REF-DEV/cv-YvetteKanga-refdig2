@@ -1,0 +1,225 @@
+body{
+	background-color: grey;
+}
+main{
+	color: white;
+}
+.moncv{
+	background-color: white;
+	position: absolute;
+	width: 60%;
+	left: 15%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	
+}
+aside{
+	background-color: #4682B4;
+	width: 35%;
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+
+}
+#cercleG{
+	width: 210px;
+	height: 210px;
+	border-radius: 150px;
+	background-color: white;
+	margin:auto;
+	display: flex;
+
+}
+img{
+	width: 210px;
+	display: flex;
+	justify-content: center;
+	height: 210px;
+	border-radius: 150px;
+}
+.profil{
+	background-color: #00bfff;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+#cercle1{
+	width: 32px;
+	height: 32px;
+	border-radius: 20px;
+	background-color: white;
+	margin-left: 4%;
+	margin-bottom: 20px;
+	display: flex;
+	margin-top: -25px;
+}
+.icone{
+	color: black;
+}
+i{
+	padding: 7px;
+}
+h4{
+	margin-left: 40px;
+	margin-top: 5px;
+	position: absolute;
+}
+#cercle{
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: #00bfff;
+	margin-left: 15%;
+	display: flex;
+	margin-bottom: 8px;
+	margin-top: 5px;
+}
+aside p{
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.facebook{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+.info{
+	width: 90%;
+	height: 10px;
+	background-color: white;
+	margin-left: 20px;
+	margin-top: -15px;
+	border-radius: 5px;
+
+}
+.info1{
+	background-color: #00bbff;
+	width: 78%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info2{
+	background-color: #00bbff;
+	width: 70%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info3{
+	background-color: #00bbff;
+	width: 98%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+.info4{
+	background-color: #00bbff;
+	width: 70%;
+	height: 10px;
+	margin-top: -15px;
+	border-radius: 5px;
+}
+section{
+	color: black;
+}
+.nom{
+	margin-top: -140%;
+	margin-left: 40%;
+	margin-bottom: -30px;
+	padding-bottom: 10px;
+}
+.nom h1{
+	font-size: xx-large;
+	margin-left: -3%;
+}
+h5{
+	margin-left: 10%;
+	margin-top: -20px;
+}
+.contenu{
+	display: flex;
+	font-size: 20px;
+	margin-left: 30%;
+	flex-wrap: wrap;
+	padding-bottom: 35px;
+}
+#cercleE{
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	background-color: #191970;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	margin-top: -38px;
+	justify-content: center;
+}
+h3{
+	text-align: left;
+	margin-left: 75px;
+	font-size: 19px;
+}
+.profil1{
+	background-color: #00bfff;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	margin-right: -27px;
+}
+.edu{
+	color: white;
+}
+.article{
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+p{
+	font-weight: bold;
+}
+
+
+@media all and (max-width: 1350px){
+	aside{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	img{
+		margin: auto;
+	}
+	.imageG{
+		margin: auto;
+	}
+	.nom{
+		margin: 0px;
+
+	}
+	.contenu{
+		flex-direction: column;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	#cercleE{
+		margin-left: -10px;
+	}
+	.nom{
+		text-align: center;
+	}
+	.profil1{
+		margin-left: -10px;
+	}
+	p{
+		margin: 0px;
+	}
+	h3{ 
+		margin: auto;
+		padding-bottom: 20px;
+	}
+}
